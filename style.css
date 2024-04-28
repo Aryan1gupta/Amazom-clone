@@ -1,0 +1,512 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+}
+*{
+    margin: 0;
+    font-family: arial;
+}
+
+#upper{
+    height:60px;
+    width: 1365px;
+    background-color: black;
+    color: white;
+    display:flex;
+}
+
+#logos{
+    height:50px;
+    width:100px ;
+}
+
+#image{
+    width:100%;
+    height:50px;
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+    padding:1px 8px 0px 6px;
+}
+
+#image{
+    border:2px solid transparent;
+}
+
+#image:hover {
+    border:2px solid white;
+}
+
+#addressbar{
+    height:50px;
+    width:80px;
+    margin:5px 2px 5px 10px;
+    padding: 5px 9px;
+    align-items:center;
+}
+
+#addressbar{
+    border:2px solid transparent;
+}
+
+#addressbar:hover {
+    border:2px solid white;
+}
+
+p{
+    display:inline;
+}
+
+#pata{
+    font-size:12px;
+    color:#cccccc;
+    height:14;
+    width:52;
+}
+
+#map{
+    font-size:15px;
+    margin:0px 0px 9px;
+    height:14px;
+    width:52px;
+}
+
+#searchbar{
+    height:40px;
+    width:850px;
+    margin-top:8px;
+    margin-bottom:6px;
+    display:flex;
+}
+
+#all{
+    height:40px;
+    width:50px;
+    background-color:rgb(242, 246, 255);
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    color:black;
+    font-size: small;
+    padding-left:13px;
+    display:flex;
+    align-items: center;
+   
+}
+
+#searchamazon{
+    height:40px;
+    width:600px;
+    background-color: white;
+    color:Black;
+    padding:0px 0px 0px 10px;
+    display:flex;
+    align-items: center;
+}
+
+#searchlogo{
+    height:40px;
+    width:45px;
+    background-color: #f8a220;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    color:black;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    padding-left:16px;
+}
+
+#all{
+    background-color:rgb(242, 246, 255);
+}
+
+#all:hover{
+    background-color: rgb(206, 211, 223);
+}
+
+#searchlogo{
+    background-color:  #f8a220;
+}
+
+#searchlogo:hover{
+    background-color: #ff9900;
+}
+
+#EN{
+    height:50px;
+    width:100px;
+    margin:0px 0px 0px 1px;
+    padding:15px 9px 0px;
+    align-items:center;
+}
+
+img{
+    height:20px;
+    width:40px;
+}
+
+#EN{
+    border:2px solid transparent;
+}
+
+#EN:hover{
+    border:2px solid white;
+}
+
+#signin{
+    height:50px;
+    width:165px;
+    margin:0px 0px 0px 2px;
+    padding:10px 9px 10px;
+}
+
+#hellowsignin{
+    font-size:15px;
+}
+
+#signin{
+    border:2px solid transparent;
+}
+
+#signin:hover{
+    border:2px solid white;
+}
+
+#returns{
+    height:50px;
+    width:75px;
+    margin:0px 0px 0px 9px;
+    padding:10px 9px 10px;
+}
+
+#returns{
+    border:2px solid transparent;
+}
+
+#returns:hover{
+    border:2px solid white;
+}
+
+#cart{
+    height:50px;
+    width:85px;
+    text-align: center;
+    font-size:20px;
+    margin:0px 11px 0px 2px;
+    padding:15px 9px 11px;
+}
+
+#cart{
+    border:2px solid transparent;
+}
+
+#cart:hover{
+    border:2px solid white;
+}
+
+#secondupper{
+    height:40px;
+    width:1365;
+    background-color: #2c3131;
+    color:white;
+    display:flex;
+}
+
+#allmenu{
+    height:40px;
+    width:40px;
+    padding:10px 10px;
+}
+
+#allmenu{
+    border:1px solid transparent;
+}
+
+#allmenu:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+
+#todaysdeal{
+    height:30px;
+    width:100px;
+    padding:5px 10px;
+    margin:5px 0px 4px;
+}
+
+#todaysdeal{
+    border:1px solid transparent;
+}
+
+#todaysdeal:hover{
+    border:1px solid white;
+    border-radius:3px;
+
+}
+
+#customerservice{
+    height:30px;
+    width:130px;
+    padding:5px 10px;
+    margin:5px 0px 6px;
+}
+
+#customerservice{
+    border:1px solid transparent;
+}
+
+#customerservice:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+
+#registry{
+    height:30px;
+    width:70px;
+    padding:5px 10px;
+    margin:5px 0px 6px;
+}
+
+#registry{
+    border:1px solid transparent;
+}
+
+#registry:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+
+#giftcards{
+    height:30px;
+    width:80px;
+    padding:5px 10px;
+    margin:5px 0px 6px;
+}
+
+#giftcards{
+    border:1px solid transparent;
+}
+
+#giftcards:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+
+#sell{
+    height:30px;
+    width:50px;
+    padding:5px 10px;
+    margin:5px 0px 6px;
+}
+
+#sell{
+    border:1px solid transparent;
+}
+
+#sell:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+
+#shopdealsinelectronics{
+    height:30px;
+    width:195px;
+    padding:5px 0px 5px 5px;
+    margin:5px 0px 6px 550px;
+    justify-content:flex-start;
+}
+
+#shopdealsinelectronics{
+    border:1px solid transparent;
+}
+
+#shopdealsinelectronics:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+
+#beauty{
+    height:400px;
+    width:1365px;
+    padding: 245px 0px 0px 30px;
+    background-color: aquamarine;
+    background-image:url(https://m.media-amazon.com/images/I/51RPiINhM7L._SX1500_.jpg);
+    background-size: cover;
+    display:grid;
+    grid-template-columns:310px 310px 310px 310px;
+    grid-template-rows:30px 140px 260px;
+    row-gap:19px;
+    column-gap:19px;
+}
+
+#shreya{
+    width:1350px;
+    height: 30px;
+    background-color: rgb(233, 221, 221);
+    margjin:250px 30px 10px 200px;
+    text-align: center;
+    grid-column:1/5;
+}
+
+#shubhi{
+    height:400px;
+    width:300px;
+    background-color: white;
+    grid-row:2/4;
+    box-shadow: 3px 3px 3px;
+}
+
+#tarun{
+    height:400px;
+    width:300px;
+    background-color:white;
+    grid-row:2/4;
+    box-shadow: 3px 3px 3px;
+}
+
+#gola{
+    height:400px;
+    width:300px;
+    background-color:white;
+    grid-row:2/4;
+    box-shadow: 3px 3px 3px;
+}
+
+#ayam{ 
+    height:140px;
+    width:300px;
+    background-color:white;
+    grid-row:2/3;
+    box-shadow: 3px 3px 3px;
+    text-align:left;    
+}
+
+#shan{
+    height:241px;
+    width:300px;
+    background-color:white;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg");
+    background-size: cover;
+    grid-row:3/4;
+    padding:0px;
+    margin:0px;
+    box-shadow:3px 3px 3px ;
+}
+
+button{
+    background-color:yellow;
+    border-radius:15px;
+    height:33px;
+    width:260px;  
+}
+
+h3{
+    padding:17px 20px 0px 18px;
+}
+
+#lapi{
+    padding:15px 0px 0px 20px;
+}
+
+h4{
+    color:rgb(22, 122, 161);
+    padding:5px 0px 0px 18px;
+    font-size: small;
+}
+
+#M{
+    height:332px;
+    width:280px;
+    display:grid;
+    grid-template-rows:165px 165px;
+    grid-template-columns:140px 140px;
+    row-gap:2px;
+    column-gap:2px;
+    padding:5px 10px 0px 10px;
+}
+
+#C{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg");
+    background-size:cover ;
+}
+
+#N{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg");
+    background-size:cover;
+}
+
+#B{ 
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg");
+    background-size:cover ;
+}
+
+#V{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg");
+    background-size:cover ;
+}
+
+h5{
+    padding:125px 0px 0px 0px;
+}
+
+#X{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg");
+    background-size:cover ;
+}
+
+#Z{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg");
+    background-size:cover;
+}
+
+#L{ 
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg");
+    background-size:cover ;
+}
+
+#K{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg");
+    background-size:cover ;
+}
+#J{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg");
+    background-size:cover ;
+}
+
+#H{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg");
+    background-size:cover;
+}
+
+#G{ 
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg");
+    background-size:cover ;
+}
+
+#F{
+    height:120px;
+    width:139px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg");
+    background-size:cover ;
+}
+
